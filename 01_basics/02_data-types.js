@@ -3,6 +3,7 @@
 
 
 // Primitives data types
+
 // NN,SS,B,U
 // number=> 2 to power 53;
 // null=> stand alone value  typeof null => object
@@ -14,4 +15,5 @@
 
  
 
-// 
+// Reference (Non Primitive )
+// array, object, function
