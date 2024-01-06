@@ -57,5 +57,14 @@ document.getElementById("owl").addEventListener("click", function (e) {
 
 document.querySelector("#images").addEventListener("click", (e) => {
   let removeIt = e.target.parentNode;
-  
+  if (e.target.tagName === "IMG") {
+    removeIt.remove();
+    console.log(removeIt);
+    console.log(e.target.id)
+   }
+
+
+   // removeIt.parentNode.removeChild(removeIt)
+
+  // console.log(a)
 });
